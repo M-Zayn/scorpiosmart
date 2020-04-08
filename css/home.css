@@ -2520,10 +2520,27 @@ a:hover, a:focus {
   }
 }
 
+@media (max-width: 320px) {
+  .header .header-inner h2 {
+    font-size: 18px;
+  }
+  .header .header-inner h3 {
+    font-size: 14px;
+  }
+}
+
 /*------ other direction ------*/
 html[dir="ltr"] .pre-loader .progress-bar {
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
+}
+
+html[dir="ltr"] .upper-bar .zx-container ul li {
+  margin: 0 18px 0 0;
+}
+
+html[dir="ltr"] .upper-bar .zx-container ul li:last-child {
+  margin: 0;
 }
 
 html[dir="ltr"] .upper-bar .zx-container ul {
