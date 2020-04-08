@@ -2373,7 +2373,7 @@ a:hover, a:focus {
     font-size: 14px;
   }
   .header .owl-Carousel .owl-dots {
-    bottom: 15px;
+    bottom: 9px;
   }
   .vid {
     margin: 0;
@@ -2472,9 +2472,6 @@ a:hover, a:focus {
     width: 110px;
     height: 25px;
     font-size: 13px;
-  }
-  .header .owl-Carousel .owl-dots {
-    bottom: 13px;
   }
   .vid {
     height: 150px;
