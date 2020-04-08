@@ -2657,7 +2657,7 @@ html[dir="ltr"] .footer .copyrights .copy img {
     left: 0;
   }
   html[dir="ltr"] .fixed-menu .menu .menu-upper .lang-switcher a img {
-    margin: 0 0 0 5px;
+    margin: 0 5px 0 0;
   }
   html[dir="ltr"] .fixed-menu .menu .menu-list > ul {
     -webkit-transform: translateX(-50%);
