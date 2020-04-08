@@ -346,7 +346,7 @@ a:hover, a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9;
-  width: 150px;
+  width: 120px;
   border-radius: 5px;
   background-color: #fff;
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.06);
@@ -368,7 +368,7 @@ a:hover, a:focus {
           align-items: center;
   font-family: ar-reg;
   font-size: 15px;
-  color: #2e2e2e;
+  color: #939393;
   margin: 3px 0;
 }
 
