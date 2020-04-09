@@ -1425,8 +1425,8 @@ a:hover, a:focus {
 .courses .courses-header {
   margin: 0 0 25px 0;
   padding: 0;
-  font-family: ar-bold;
-  font-size: 20px;
+  font-family: ar-md;
+  font-size: 24px;
   color: #333333;
 }
 
@@ -2352,6 +2352,13 @@ a:hover, a:focus {
   .nav-bar .zx-container .logo {
     width: 120px;
   }
+  .nav-bar .zx-container .nav-icons .search-icon,
+  .nav-bar .zx-container .nav-icons .user-icon,
+  .nav-bar .zx-container .nav-icons .fav-icon,
+  .nav-bar .zx-container .nav-icons .card-icon,
+  .nav-bar .zx-container .nav-icons .menu-icon {
+    font-size: 24px;
+  }
   .nav-bar .search-popup {
     top: 80px;
     width: 96%;
@@ -2417,10 +2424,10 @@ a:hover, a:focus {
   }
   .categories .category-imgs .catecory-img .overlay h4 {
     text-align: center;
-    margin: 8px 0 10px 0;
+    margin: 0;
   }
   .categories .category-imgs .catecory-img .overlay a {
-    margin: 0 0 10px 0;
+    display: none;
   }
   .testimonial .test-card {
     width: 359px;
@@ -2478,13 +2485,6 @@ a:hover, a:focus {
   }
   .categories .category-imgs .catecory-img .overlay h4 {
     font-size: 21px;
-    margin: 0 0 5px 0;
-  }
-  .categories .category-imgs .catecory-img .overlay a {
-    width: 120px;
-    height: 30px;
-    font-size: 14px;
-    margin: 0 0 10px 0;
   }
   .testimonial .test-card {
     width: 300px;
@@ -2496,10 +2496,9 @@ a:hover, a:focus {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  }
+  .testimonial .test-card .card-vids img {
+    width: 110px;
   }
   .testimonial .test-card .card-vids a {
     margin: 0 0 10px 0;
@@ -2718,4 +2717,3 @@ html[dir="ltr"] .footer .copyrights .copy img {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
