@@ -2310,6 +2310,9 @@ a:hover, a:focus {
 }
 
 @media (max-width: 767px) {
+  .header .header-inner a {
+    display: none;
+  }
   .header .owl-Carousel .owl-dots {
     bottom: 20px;
   }
@@ -2319,20 +2322,12 @@ a:hover, a:focus {
 }
 
 @media (max-width: 600px) {
-  .header .header-inner {
-    top: 46%;
-  }
   .header .header-inner h2 {
     font-size: 30px;
   }
   .header .header-inner h3 {
     font-size: 23px;
     margin: 0 0 20px 0;
-  }
-  .header .header-inner a {
-    width: 120px;
-    height: 30px;
-    font-size: 16px;
   }
   .vid {
     height: 250px;
@@ -2373,11 +2368,6 @@ a:hover, a:focus {
   .header .header-inner h3 {
     font-size: 18px;
     margin: 0 0 15px 0;
-  }
-  .header .header-inner a {
-    width: 120px;
-    height: 30px;
-    font-size: 14px;
   }
   .header .owl-Carousel .owl-dots {
     bottom: 9px;
@@ -2465,20 +2455,12 @@ a:hover, a:focus {
   .nav-bar .search-popup.show {
     top: 90px;
   }
-  .header .header-inner {
-    top: 42%;
-  }
   .header .header-inner h2 {
     font-size: 20px;
   }
   .header .header-inner h3 {
     font-size: 16px;
     margin: 0 0 9px 0;
-  }
-  .header .header-inner a {
-    width: 110px;
-    height: 25px;
-    font-size: 13px;
   }
   .vid {
     height: 150px;
@@ -2716,4 +2698,3 @@ html[dir="ltr"] .footer .copyrights .copy img {
     padding: 0 15px;
   }
 }
-
