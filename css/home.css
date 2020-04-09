@@ -1085,7 +1085,7 @@ a:hover, a:focus {
   cursor: default;
 }
 
-.categories .category-imgs .catecory-img .overlay a {
+.categories .category-imgs .catecory-img .overlay button {
   margin: 0 0 33px 0;
   outline: none;
   font-family: ar-md;
@@ -1110,7 +1110,7 @@ a:hover, a:focus {
           align-items: center;
 }
 
-.categories .category-imgs .catecory-img .overlay a:hover {
+.categories .category-imgs .catecory-img .overlay button:hover {
   background-color: #fff;
   border-color: #fff;
   color: #2170aa;
@@ -2340,7 +2340,7 @@ a:hover, a:focus {
   .our-vision .vision {
     margin: 10px 0 10px 0;
   }
-  .categories .category-imgs .catecory-img .overlay a {
+  .categories .category-imgs .catecory-img .overlay button {
     margin: 0 0 20px 0;
   }
 }
@@ -2426,7 +2426,7 @@ a:hover, a:focus {
     text-align: center;
     margin: 0;
   }
-  .categories .category-imgs .catecory-img .overlay a {
+  .categories .category-imgs .catecory-img .overlay button {
     display: none;
   }
   .testimonial .test-card {
